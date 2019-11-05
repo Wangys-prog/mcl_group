@@ -63,6 +63,10 @@ def main():
         output2.write("%s\n" % ("\t".join(b_dict)))
     output3.write("%s\n"%("\n".join(sorted(set(c_dict)))))
     output4.write("%s\n" % ("\n".join(sorted(set(d_dict)))))
+    output1.close()
+    output2.close()
+    output3.close()
+    output4.close()
 if __name__=="__main__":
     main()
 
