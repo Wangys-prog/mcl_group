@@ -68,7 +68,7 @@ def main():
             id_dict[key] = b.count(key)
             a.append(str(id_dict[key]))
         output.write("%s\n" % ("\t".join(a)))
-
+     output.close()
 if __name__ == '__main__':
      main()
 
